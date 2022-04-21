@@ -1,0 +1,14 @@
+{
+  "_cts": {
+    "post-jobs-in-plain-english": {
+      "content": {
+        "body": {
+          "config": {
+            "patternType": "PARAGRAPH",
+            "blocks": 1
+          }
+        }
+      }
+    }
+  }
+}

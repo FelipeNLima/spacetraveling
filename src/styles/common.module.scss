@@ -1,1 +1,103 @@
-// TODO
+.content {
+  position: absolute;
+  width: 700px;
+  height: 108px;
+  left: 368px;
+  top: 170px;
+}
+
+.post {
+  padding: 10px;
+  padding-bottom: 2rem;
+  h1 {
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 68.52%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    /* identical to box height */
+    text-align: justify;
+    letter-spacing: -0.5px;
+    /* Heading */
+    color: var(--Heading);
+  }
+  p {
+    left: 0%;
+    right: 28.57%;
+    top: 38.89%;
+    bottom: 40.74%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    text-align: justify;
+    /* Body */
+    color: var(--Body);
+
+    padding-top: 1rem;
+  }
+  .info {
+    left: 0%;
+    right: 62.43%;
+    top: 81.48%;
+    bottom: 0%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 2rem;
+      .createdAt {
+        left: 4%;
+        right: 84.43%;
+        top: 82.41%;
+        bottom: 1.85%;
+        span {
+          font-family: 'Inter';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 17px;
+          color: #BBBBBB;
+          padding-left: 1rem;
+        }
+      }
+      .author {
+        left: 23%;
+        right: 62.43%;
+        top: 82.41%;
+        bottom: 1.85%;
+        padding-left: 2rem;
+        span {
+          font-family: 'Inter';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 17px;
+          color: #BBBBBB;
+          padding-left: 1rem;
+        }
+      }
+      .time {
+        left: 23%;
+        right: 62.43%;
+        top: 82.41%;
+        bottom: 1.85%;
+        padding-left: 2rem;
+        span {
+          font-family: 'Inter';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 17px;
+          color: #BBBBBB;
+          padding-left: 1rem;
+        }
+      }
+  }
+}
+
+
